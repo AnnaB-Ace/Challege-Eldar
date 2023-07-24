@@ -1,0 +1,19 @@
+.form-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    
+
+    form{
+       width: 50%;
+    
+    }
+}
+@media (max-width: 767px) {
+    .form-create {
+        form{
+            width: 100% !important;
+         }
+    }
+  }

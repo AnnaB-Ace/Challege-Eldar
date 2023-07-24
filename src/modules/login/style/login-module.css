@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  position: relative;
+}
+.container .background {
+  background-color: rgb(164, 120, 234);
+  width: 120%;
+  height: 100%;
+  transform: rotate(5.5deg);
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  z-index: 1;
+}
+.container .container-form {
+  background: #ffffff;
+  box-shadow: rgba(24, 30, 38, 0.1) 0px 1px 12px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 500px;
+  z-index: 2;
+  position: relative;
+}
+.container .container-form .container-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  flex: 1;
+}
+
+@media (max-width: 500px) {
+  .container .container-form {
+    width: 90% !important;
+  }
+}/*# sourceMappingURL=login-module.css.map */
